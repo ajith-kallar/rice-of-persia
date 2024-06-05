@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer components {
+
+    /* This won't be included in your compiled CSS unless you actually use it */
+    .text-normal {
+        font-family: "Inika", serif;
+            font-weight: 400;
+            font-style: normal;
+    }
+    .text-bold {
+        font-family: "Inika", serif;
+            font-weight: 400;
+            font-style: bold;
+    }
+    /* .background-header{
+        background: url(/images/bg-purple.jpg);
+        backdrop-filter: unset;
+    } */
+}
