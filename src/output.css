@@ -581,7 +581,7 @@ footer{
 }
 
 .aspect-ratio{
-  aspect-ratio: 2/1;
+  aspect-ratio: 2/1.5;
   -o-object-fit: contain;
      object-fit: contain;
 }
@@ -878,10 +878,6 @@ footer{
   overflow: hidden;
 }
 
-.overflow-y-hidden {
-  overflow-y: hidden;
-}
-
 .overflow-x-scroll {
   overflow-x: scroll;
 }
@@ -1008,11 +1004,6 @@ footer{
 .py-0 {
   padding-top: 0px;
   padding-bottom: 0px;
-}
-
-.py-1 {
-  padding-top: 0.25rem;
-  padding-bottom: 0.25rem;
 }
 
 .py-2 {
@@ -1368,10 +1359,6 @@ footer{
     display: none;
   }
 
-  .md\:h-28 {
-    height: 7rem;
-  }
-
   .md\:w-\[350px\] {
     width: 350px;
   }
@@ -1412,6 +1399,10 @@ footer{
 
   .md\:p-0 {
     padding: 0px;
+  }
+
+  .md\:p-3 {
+    padding: 0.75rem;
   }
 
   .md\:text-3xl {
