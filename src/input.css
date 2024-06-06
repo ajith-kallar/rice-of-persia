@@ -14,8 +14,14 @@
             font-weight: 400;
             font-style: bold;
     }
-    /* .background-header{
-        background: url(/images/bg-purple.jpg);
-        backdrop-filter: unset;
-    } */
+    header{
+        background: url(/images/texturebg.png);
+      
+    }
+    footer{
+        background: url(/images/texturebg.png);
+    }
+    .bg-body{
+        background: url(/images/texturebg.png);
+    }
 }
